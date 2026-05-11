@@ -1,0 +1,10 @@
+yarn run v1.22.22
+$ tsc-watch --onSuccess "node build/index.js"
+[2J[3J[H10:48:10 AM - Starting compilation in watch mode...
+
+error TS6059: File '/media/deepanshu-rawat/Personal/Node-JS/thread-app-backend/prisma.config.ts' is not under 'rootDir' '/media/deepanshu-rawat/Personal/Node-JS/thread-app-backend/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+  File is ECMAScript module because '/media/deepanshu-rawat/Personal/Node-JS/thread-app-backend/package.json' has field "type" with value "module"
+
+10:48:13 AM -[31m Found 1 error. Watching for file changes.[39m
